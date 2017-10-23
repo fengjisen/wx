@@ -1,0 +1,90 @@
+.container{
+    width: 100%;
+    height: 92%;
+}
+.container .text{
+    width: 100%;
+    height:10%;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    font-size:17px;
+    color: #fff;
+    background: #00bb00;
+    text-align: center;
+    vertical-align: middle;
+}
+.container .blank{
+    width: 100%;
+    height: 10px;
+    background:#f2f2f2;
+}
+.contaier .detail{
+    width:100%;
+    height: 100px;
+    margin-bottom: 1px solid #f2f2f2;
+    padding-color: #fff;
+}
+.container .detail .left{
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    padding-top: 24px;
+    padding-left: 15px;
+}
+.container .detail .left img{
+    width: 40px;
+    height: 40px;
+}
+.container .detail .middle{
+    display: inline-block;
+    padding-left: 75px;
+    padding-top: 15px;
+}
+.container .detail .middle .phone{
+    color: #8c8c8c;
+}
+.container .detail .right{
+    display: inline-block;
+    padding: 0;
+    position: absolute;
+    top: 94px;
+    right: 20px;
+    color: #8c8c8c;
+}
+
+
+ .btn {
+    width: 100%;
+    height: 8%;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    border-radius: 4%;
+    padding-top: 10px;
+    background: #00bb00;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background-color: #f2f2f2;
+}
+.bottom .col-sm-12{
+    padding: 0;
+}
+.bottom a{
+    width: 18%;
+    text-align:center;
+}
+.bottom a span{
+    font-size: 15px;
+}
+.bottom .glyphicon{
+    margin-top: 10%;
+}
+.bottom .glyphicon .detail{
+    font-size: 12px;
+    margin-top: 8px;
+}

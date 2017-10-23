@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/shopping chart.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript"  src="js/jquery-3.2.1.min.js"></script>
+
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="img col-sm-4">
+            <img src="./image/goods.jpg">
+        </div>
+        <div class="text col-sm-4">
+            <div class="name">菜名菜名菜名</div>
+            <div class="about">关于菜品</div>
+            <div class="price">￥88.8</div>
+        </div>
+        <div class="per col-sm-4">
+            <span class="sub">-</span>
+            <span class="count">1</span>
+            <span class="add">+</span>
+        </div>
+    </div>
+</div>
+<div class="total">
+    <span class="money">
+        总计
+        <span class="mon">
+            ￥88.8
+        </span>
+    </span>
+    <a href="##">去结算</a>
+</div>d
+<div class="bottom">
+    <div class="col-sm-12">
+        <a href="##" title="">
+            <span class="glyphicon glyphicon-home" style="color:#000"><div class="detail">菜单</div></span>
+        </a>
+        <a href="##" title="">
+            <span class="glyphicon glyphicon-shopping-cart" style="color:#000"><div class="detail">购物车</div></span>
+        </a>
+        <a href="##" title="">
+            <span class="glyphicon glyphicon-time" style="color:#000"><div class="detail">轻松套餐</div></span>
+        </a>
+        <a href="##" title="">
+            <span class="glyphicon glyphicon-list-alt" style="color:#000"><div class="detail">订单</div></span>
+        </a>
+        <a href="##" title="">
+            <span class="glyphicon glyphicon-user" style="color:#000"><div class="detail">我的</div></span>
+        </a>
+    </div>
+</div>
+<script type="text/javascript">
+    var Count = document.getElementsByClassName("count").val();
+    var Add = document.getElementsByClassName("add");
+    var Sub = document.getElementsByClassName("sub");
+    $(document).ready(function(){
+        $("Add").click(function(){
+            Count++;
+        });
+    });
+</script>
+
+
+
+</script>
+</body>
+</html>

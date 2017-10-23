@@ -1,0 +1,104 @@
+
+.wrapper{
+    width: 100%;
+    height: 92%;
+    background: #f2f2f2;
+}
+.wrapper .title{
+    width: 100%;
+    height: 15%;
+    color: #fff;
+    text-align: center;
+    font-size: 17px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #00bb00;
+}
+.wrapper .blank{
+    width: 100%;
+    height: 18px;
+}
+.wrapper .sex{
+    background: #fff;
+    width: 100%;
+    height:10%;
+    padding: 10px 0;
+    font-size: 17px;
+    padding-left: 60px;
+    border-bottom: 1px dashed #f2f2f2;
+}
+.wrapper .info{
+    padding-left: 30px;
+    padding-bottom: 8px;
+    border: 0;
+    width: 100%;
+    height: 16%;
+    font-size:17px;
+    background:#fff;
+}
+.wrapper .info .name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color：#f2f2f2;
+}
+.wrapper .info .phone{
+    border: none;
+    color：#f2f2f2;
+}
+.wrapper .addr {
+    background: #fff;
+    padding-left: 30px;
+    height:24%;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wrapper .addr .area{
+    border: none;
+    margin-bottom: 13px;
+}
+.wrapper .addr .address{
+    border: none;
+    margin-bottom: 13px;
+}
+.wrapper .row .save{
+    width: 100%;
+    height: 15%;
+    background: #fff;
+}
+.wrapper .row .save .btn{
+    width:90%;
+    height:90%;
+    color: #fff;
+    padding:8px;
+    background: #00bb00;
+    font-size: 17px;
+    margin:8px 15px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background-color: #f2f2f2;
+}
+.bottom .col-sm-12{
+    padding: 0;
+}
+.bottom a{
+    width: 18%;
+    text-align:center;
+}
+.bottom a span{
+    font-size: 15px;
+}
+.bottom .glyphicon{
+    margin-top: 10%;
+    font-size: 12px;
+}
+.bottom .glyphicon .detail{
+    font-size: 12px;
+    margin-top: 8px;
+}
+

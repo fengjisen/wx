@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>index页面</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript"  src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript"  src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"  src="js/wow.min.js"></script>
+
+
+</head>
+<body>
+<div class="header">
+        <div  class="row" data-toggle="modal" data-target=".bs-example-modal-lg">
+            <div class="left col-sm-3" >
+                <img src="./image/logo.png" alt="logo">
+            </div>
+            <div class="right col-sm-9">
+                <div class="title">店家名称</div>
+                <div class="text">
+                    <i class="glyphicon glyphicon-volume-up"></i>
+                    这是一段文字，大约是对这家店的详细介绍.
+                </div>
+                <a class="more">今日有活动,查看最新消息&nbsp;></a>
+            </div>
+        </div>
+</div>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg col-sm-12">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">一级标题</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>二级标题</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">我看过了</button>
+                    </div>
+                </div>
+            </div>
+</div>
+
+<div class="container">
+    <div class="row">
+            <ul id="myTab" class="nav leftMenu col-sm-3">
+                <li class="active"><a href="#hotSale" role="tab" >热销</a></li>
+                <li><a href="#discount" role="tab" data-toggle="tab">折扣</a></li>
+                <li><a href="#meal" role="tab" data-toggle="tab">套餐</a></li>
+                <li><a href="#sign" role="tab"  data-toggle="tab">招牌</a></li>
+                <li><a href="#goods" role="tab" data-toggle="tab">产品</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content rightDetail col-sm-9">
+
+                    <div class="tab-pane fade in active" id="hotSale">
+                        <section id="hotSale">
+                            <div class="front">热销</div>
+                                <div class="leftImg" >
+                                    <img src="./image/goods.jpg" alt="goods">
+                                </div>
+                                <div class="rightText">
+                                        <div class="oneTitle">这是一级标题</div>
+                                        <div class="twoTitle">这是一段文字，大约是介绍上述一级标题的产品</div>
+                                        <div class="discountDetail">
+                                           <div class="DeLeft">
+                                                <div class="sale">销量12345</div>
+                                               <i class="price">￥000.00<span class="per">/个</span></i>
+                                                <div class="more">
+                                                    <span class="glyphicon glyphicon-tag"></span>
+                                                    <span class="diss">3折&nbsp;限2份</span>
+                                                </div>
+                                           </div>
+                                                <div class="rightBtn">+</div>
+                                       </div>
+                                </div>
+                        </section>
+                    </div>
+
+                    <div class="tab-pane fade" id="discount">
+
+                        <section id="discount">
+                            <div class="front">折扣</div>
+                            <div class="leftImg" >
+                                <img src="./image/goods.jpg" alt="goods">
+                            </div>
+                            <div class="rightText">
+                                <div class="oneTitle">这是一级标题</div>
+                                <div class="twoTitle">这是一段文字，大约是介绍上述一级标题的产品</div>
+                                <div class="discountDetail">
+                                    <div class="DeLeft">
+                                        <div class="sale">销量12345</div>
+                                        <i class="price">￥000.00<span class="per">/个</span></i>
+                                        <div class="more">
+                                            <span class="glyphicon glyphicon-tag"></span>
+                                            <span class="diss">3折&nbsp;限2份</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightBtn">+</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="tab-pane fade" id="meal">
+                        <section id="meal">
+                            <div class="front">套餐</div>
+                            <div class="leftImg" >
+                                <img src="./image/goods.jpg" alt="goods">
+                            </div>
+                            <div class="rightText">
+                                <div class="oneTitle">这是一级标题</div>
+                                <div class="twoTitle">这是一段文字，大约是介绍上述一级标题的产品</div>
+                                <div class="discountDetail">
+                                    <div class="DeLeft">
+                                        <div class="sale">销量12345</div>
+                                        <i class="price">￥000.00<span class="per">/个</span></i>
+                                        <div class="more">
+                                            <span class="glyphicon glyphicon-tag"></span>
+                                            <span class="diss">3折&nbsp;限2份</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightBtn">+</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="tab-pane fade" id="sign">
+                        <section id="sign">
+                            <div class="front">招牌</div>
+                            <div class="leftImg" >
+                                <img src="./image/goods.jpg" alt="goods">
+                            </div>
+                            <div class="rightText">
+                                <div class="oneTitle">这是一级标题</div>
+                                <div class="twoTitle">这是一段文字，大约是介绍上述一级标题的产品</div>
+                                <div class="discountDetail">
+                                    <div class="DeLeft">
+                                        <div class="sale">销量12345</div>
+                                        <i class="price">￥000.00<span class="per">/个</span></i>
+                                        <div class="more">
+                                            <span class="glyphicon glyphicon-tag"></span>
+                                            <span class="diss">3折&nbsp;限2份</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightBtn">+</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="tab-pane fade" id="goods">
+                        <section id="goods">
+                            <div class="front">商品</div>
+                            <div class="leftImg" >
+                                <img src="./image/goods.jpg" alt="goods">
+                            </div>
+                            <div class="rightText">
+                                <div class="oneTitle">这是一级标题</div>
+                                <div class="twoTitle">这是一段文字，大约是介绍上述一级标题的产品</div>
+                                <div class="discountDetail">
+                                    <div class="DeLeft">
+                                        <div class="sale">销量12345</div>
+                                        <i class="price">￥000.00<span class="per">/个</span></i>
+                                        <div class="more">
+                                            <span class="glyphicon glyphicon-tag"></span>
+                                            <span class="diss">3折&nbsp;限2份</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightBtn">+</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+            </div>
+    </div>
+</div>
+
+<div class="bottom">
+        <div class="col-sm-12">
+            <a href="##" title="">
+                <span class="glyphicon glyphicon-home" style="color:#000"><div class="detail">菜单</div></span>
+            </a>
+            <a href="##" title="">
+                <span class="glyphicon glyphicon-shopping-cart" style="color:#000"><div class="detail">购物车</div></span>
+            </a>
+            <a href="##" title="">
+                <span class="glyphicon glyphicon-time" style="color:#000"><div class="detail">轻松套餐</div></span>
+            </a>
+            <a href="##" title="">
+                <span class="glyphicon glyphicon-list-alt" style="color:#000"><div class="detail">订单</div></span>
+            </a>
+            <a href="##" title="">
+                <span class="glyphicon glyphicon-user" style="color:#000"><div class="detail">我的</div></span>
+            </a>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    $(function(){
+        $("#myTab a").click(function(e){
+            e.preventDefault();
+            $(this).tab("show");
+        });
+    })
+</script>
+
+</body>
+</html>

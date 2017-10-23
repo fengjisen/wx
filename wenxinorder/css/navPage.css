@@ -1,0 +1,29 @@
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background: #f2f2f2;
+}
+.bottom a{
+    width: 19%;
+    text-align:center;
+}
+.bottom a span{
+    font-size: 40px;
+}
+.bottom .glyphicon{
+    margin-top: 10%;
+}
+.bottom .glyphicon:active{
+    color:#00bb00;
+}
+.bottom .glyphicon:hover{
+    color: #00bb00;
+}
+.bottom .glyphicon .detail{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
